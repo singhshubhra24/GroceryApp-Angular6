@@ -55,20 +55,12 @@
                             <div class="clearfix slide-home slide-owl owl-carousel owl-theme">
                                 <!-- <div class="item"><img src="../../../../assets/img/banner.png" alt="Banner Header 1"></div>
                                 <div class="item"><img src="../../../../assets/img/slide_2.png" alt="Banner Header 2"></div> -->
-                                <!-- <owl-carousel
-                                    [options]="{items: 3, dots: true, navigation: true}"
-                                    [items]="images"
-                                    [carouselClasses]="['owl-theme', 'row', 'sliding']">
-                                    <div class="item" *ngFor="let image of images;let i = index">
-                                        <div class="thumbnail-image" [ngStyle]="{'background': 'url(../../../../assets/img/banner.png) no-repeat scroll center center / 80px 80px'}"></div>
-                                    </div>
-                                </owl-carousel> -->
-
+                                
                                 <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
                                     <div class="item" *ngFor="let image of images;let i= index">
                                       <img class="slide-image" src="{{image.image}}" >
                                     </div>
-                                  </owl-carousel>
+                                </owl-carousel>
                             </div>
                         </div>
                         
