@@ -33,6 +33,7 @@
               "src/assets/css/effect.css",
               "src/assets/css/font-awesome.min.css",
               "src/assets/css/home.css",
+              "src/assets/css/product.css",
               "src/assets/css/responsive.css",
               "src/assets/css/owl.theme.default.css",
               "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
