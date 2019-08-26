@@ -4,6 +4,7 @@
 }
 .slide-owl.owl-carousel {
     width: 100% !important;
+    display: block !important;
   }
    
   .slide-owl.owl-carousel .owl-nav {

@@ -118,37 +118,43 @@
                                     id="mobile-tablet">
                                     <!-- Product Son -->
                                     <div class="owl-carousel owl-theme">
-                                        <div class=" product-son ">
-                                            <div class="clearfix image-product relative animate-default">
-                                                <div class="center-vertical-image">
-                                                    <img src="../../../../assets/img/img_product.png" alt="Product . . ." />
+                                        <owl-carousel [options]="carouselOptionsProduct" [items]="imagesProduct" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                                            <div class="item" *ngFor="let image of imagesProduct;let i= index">product
+                                                <div class="product-son">
+                                                        <div class="clearfix image-product relative animate-default">
+                                                            
+                                                            <div class="center-vertical-image">
+                                                                <img class="slide-image" src="{{image.image}}" >
+                                                            </div>
+                                                            <ul class="option-product animate-default">
+                                                                <li class="relative"><a href="#"><i
+                                                                            class="data-icon data-icon-ecommerce icon-ecommerce-bag"></i></a>
+                                                                </li>
+                                                                <li class="relative"><a href="#"><i
+                                                                            class="data-icondata-icon-basic icon-basic-heart"
+                                                                            aria-hidden="true"></i></a></li>
+                                                                <li class="relative"><a href="#"><i
+                                                                            class="data-icon data-icon-basic icon-basic-magnifier"
+                                                                            aria-hidden="true"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="clearfix ranking">
+                                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        </div>
+                                                        <p
+                                                            class="title-product clearfix full-width title-hover-black animate-default">
+                                                             <a class="animate-default" href="#">{{image.text}}</a></p>
+                                                        <p class="clearfix price-product"><span class="price-old">{{image.priceOld}}</span>
+                                                            {{image.priceNew}}</p>
                                                 </div>
-                                                <ul class="option-product animate-default">
-                                                    <li class="relative"><a href="#"><i
-                                                                class="data-icon data-icon-ecommerce icon-ecommerce-bag"></i></a>
-                                                    </li>
-                                                    <li class="relative"><a href="#"><i
-                                                                class="data-icondata-icon-basic icon-basic-heart"
-                                                                aria-hidden="true"></i></a></li>
-                                                    <li class="relative"><a href="#"><i
-                                                                class="data-icon data-icon-basic icon-basic-magnifier"
-                                                                aria-hidden="true"></i></a></li>
-                                                </ul>
                                             </div>
-                                            <div class="clearfix ranking">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star-half" aria-hidden="true"></i>
-                                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                            </div>
-                                            <p
-                                                class="title-product clearfix full-width title-hover-black animate-default">
-                                                <a class="animate-default" href="#">Eos cu utroque inermis</a></p>
-                                            <p class="clearfix price-product"><span class="price-old">$700</span>
-                                                $350</p>
-                                        </div>
-                                        <div class=" product-son ">
+                                        </owl-carousel>
+                                        
+                                        <!-- <div class=" product-son ">
                                             <div class="clearfix image-product relative animate-default">
                                                 <div class="center-vertical-image">
                                                     <img src="../../../../assets/img/product_home_1.png" alt="Product . . ." />
@@ -237,12 +243,12 @@
                                                 <a class="animate-default" href="#">Fermentum velit</a></p>
                                             <p class="clearfix price-product"><span class="price-old">$700</span>
                                                 $350</p>
-                                        </div>
+                                        </div> -->
                                         <!-- End Product Son -->
                                     </div>
                                 </div>
-                                <div class="good-deal-product animate-default hidden-content-box" id="food">
-                                    <!-- Product Son -->
+                                <!-- <div class="good-deal-product animate-default hidden-content-box" id="food">
+                                    Product Son
                                     <div class="owl-carousel owl-theme">
                                         <div class=" product-son ">
                                             <div class="clearfix image-product relative animate-default">
@@ -365,11 +371,11 @@
                                             <p class="clearfix price-product"><span class="price-old">$700</span>
                                                 $350</p>
                                         </div>
-                                        <!-- End Product Son -->
+                                        End Product Son
                                     </div>
-                                </div>
-                                <div class="good-deal-product animate-default hidden-content-box" id="home-life">
-                                    <!-- Product Son -->
+                                </div> -->
+                                <!-- <div class="good-deal-product animate-default hidden-content-box" id="home-life">
+                                    Product Son
                                     <div class="owl-carousel owl-theme">
                                         <div class=" product-son ">
                                             <div class="clearfix image-product relative animate-default">
@@ -493,11 +499,11 @@
                                             <p class="clearfix price-product"><span class="price-old">$700</span>
                                                 $350</p>
                                         </div>
-                                        <!-- End Product Son -->
+                                        End Product Son
                                     </div>
                                 </div>
                                 <div class="good-deal-product animate-default hidden-content-box" id="fashion">
-                                    <!-- Product Son -->
+                                    Product Son
                                     <div class="owl-carousel owl-theme">
                                         <div class=" product-son ">
                                             <div class="clearfix image-product relative animate-default">
@@ -619,11 +625,11 @@
                                             <p class="clearfix price-product"><span class="price-old">$700</span>
                                                 $350</p>
                                         </div>
-                                        <!-- End Product Son -->
+                                        End Product Son
                                     </div>
                                 </div>
                                 <div class="good-deal-product animate-default hidden-content-box" id="auto-moto">
-                                    <!-- Product Son -->
+                                    Product Son
                                     <div class="owl-carousel owl-theme">
                                         <div class=" product-son ">
                                             <div class="clearfix image-product relative animate-default">
@@ -746,9 +752,9 @@
                                             <p class="clearfix price-product"><span class="price-old">$700</span>
                                                 $350</p>
                                         </div>
-                                        <!-- End Product Son -->
+                                        End Product Son
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -2199,9 +2205,16 @@
                         <div class="nav-prev nav-slide-brand"></div>
                         <div
                             class="slide-logo-brand col-md-12 clear-padding relative owl-theme owl-carousel border-collapsed-box">
-                            <div class="item">
-                                <div class="clearfix border-collapsed-element relative logo-brand-son"><img
-                                        src="../../../../assets/img/logo_3.png" alt="Logo"></div>
+                             
+                             <owl-carousel [options]="carouselOptionsLogo" [items]="imagesLogoBrand" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                                    <div class="item clearfix border-collapsed-element relative logo-brand-son" *ngFor="let image of imagesLogoBrand;let i= index">
+                                      <img class="slide-image" src="{{image.image}}" >
+                                    </div>
+                            </owl-carousel>                                 
+                            <!-- <div class="item">
+                                <div class="clearfix border-collapsed-element relative logo-brand-son">
+                                    <img src="../../../../assets/img/logo_3.png" alt="Logo">
+                                </div>
                                 <div class="clearfix border-collapsed-element relative logo-brand-son"><img
                                         src="../../../../assets/img/logo_7.png" alt="Logo"></div>
                             </div>
@@ -2234,7 +2247,7 @@
                                         src="../../../../assets/img/logo_2.png" alt="Logo" /></div>
                                 <div class="clearfix border-collapsed-element relative logo-brand-son"><img
                                         src="../../../../assets/img/logo_12.png" alt="Logo" /></div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="nav-next nav-slide-brand"></div>
                     </div>

@@ -8,13 +8,15 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { MainComponent } from './main/main.component';
 import { HomeComponent } from './home.component';
 import { OwlModule } from 'ngx-owl-carousel';
+import { CategoryV1Component } from './category-v1/category-v1.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, HeaderComponent, FooterComponent, SidebarComponent, MainComponent],
+  declarations: [HomeComponent, HeaderComponent, FooterComponent, SidebarComponent, MainComponent, CategoryV1Component],
   imports: [
     CommonModule,
-    HomeRoutingModule, OwlModule
+    HomeRoutingModule, 
+    OwlModule
   ]
 })
 export class HomeModule { }
