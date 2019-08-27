@@ -22,10 +22,13 @@ import { ContactComponent } from './contact/contact.component';
 import { Error404Component } from './error404/error404.component';
 import { BlogComponent } from './blog/blog.component';
 import { BlogdetailsComponent } from './blogdetails/blogdetails.component';
+import { LoginComponent } from './login/login.component';
+import { SuccessComponent } from './success/success.component';
+import { HomeV1Component } from './home-v1/home-v1.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, HeaderComponent, FooterComponent, SidebarComponent, MainComponent, CategoryV1Component, CategoryV12Component, ProductV1Component, CartpageComponent, CheckoutComponent, CompareComponent, QuickviewComponent, TrackorderComponent, WishlistComponent, AboutComponent, ContactComponent, Error404Component, BlogComponent, BlogdetailsComponent],
+  declarations: [HomeComponent, HeaderComponent, FooterComponent, SidebarComponent, MainComponent, CategoryV1Component, CategoryV12Component, ProductV1Component, CartpageComponent, CheckoutComponent, CompareComponent, QuickviewComponent, TrackorderComponent, WishlistComponent, AboutComponent, ContactComponent, Error404Component, BlogComponent, BlogdetailsComponent, LoginComponent, SuccessComponent, HomeV1Component],
   imports: [
     CommonModule,
     HomeRoutingModule, 

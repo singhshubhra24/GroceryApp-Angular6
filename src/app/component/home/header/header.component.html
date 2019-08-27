@@ -11,7 +11,7 @@
                         </p>
                         <div class="clear-padding menu-header-top text-right col-md-8 col-xs-12 col-sm-6">
                             <ul class="clear-margin">
-                                <li class="relative"><a routerLink="#">My Account</a></li>
+                                <li class="relative"><a routerLink="login">My Account</a></li>
                                 <li class="relative"><a routerLink="#">Wishlist</a></li>
                             </ul>
                         </div>
@@ -87,8 +87,8 @@
                                 <p class=" clear-margin bold">$700</p>
                             </div>
                             <div class="relative btn-cart-header">
-                                <a routerLink="#" class="uppercase bold animate-default">view cart</a>
-                                <a routerLink="#" class="uppercase bold button-hover-red animate-default">checkout</a>
+                                <a routerLink="cartpage" class="uppercase bold animate-default">view cart</a>
+                                <a routerLink="checkout" class="uppercase bold button-hover-red animate-default">checkout</a>
                             </div>
                         </div>
                         <div class="mask-search absolute clearfix" onclick="hiddenBoxSearchMobile()"></div>
@@ -121,9 +121,9 @@
                                         <li class="relative">
                                             <a class="animate-default center-vertical-image"
                                                 routerLink="home_v1"><img src="../../../../assets/img/home_1_menu-min.png" alt=""></a>
-                                            <p><a routerLink="home_v1">Home 1</a></p>
+                                            <p><a (click)="homeHeader($event)" routerLink="home_v1">Home 1</a></p>
                                         </li>
-                                        <li class="relative">
+                                        <!-- <li class="relative">
                                             <a class="animate-default center-vertical-image"
                                                 routerLink="home_v2"><img src="../../../../assets/img/home_2_menu-min.png" alt=""></a>
                                             <p><a routerLink="home_v2">Home 2</a></p>
@@ -132,7 +132,7 @@
                                             <a class="animate-default center-vertical-image"
                                                 routerLink="home_v3"><img src="../../../../assets/img/home_3_menu-min.png" alt=""></a>
                                             <p><a routerLink="home_v3">Home 3</a></p>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </li>
                                 <li class="title-hover-red">
@@ -140,11 +140,11 @@
                                     <div class="sub-menu mega-menu-v2">
                                         <ul>
                                             <li>Catgory Type</li>
-                                            <li class="title-hover-red" routerLinkActive="active"><a class="animate-default clear-padding" 
-                                                routerLink="category_v1">Category v1</a></li>    
+                                            <!-- <li class="title-hover-red" routerLinkActive="active"><a class="animate-default clear-padding" 
+                                                routerLink="category_v1">Category v1</a></li>     -->
                                              <li class="title-hover-red"><a class="animate-default clear-padding"
                                                 routerLink="category_v1_2">Category v1.2</a></li>
-                                            <li class="title-hover-red"><a class="animate-default clear-padding"
+                                            <!-- <li class="title-hover-red"><a class="animate-default clear-padding"
                                                 routerLink="category_v2">Category v2</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
                                                 routerLink="category_v2_2">Category v2.2</a></li>
@@ -155,16 +155,16 @@
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
                                                 routerLink="category_v4">Category v4</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                routerLink="category_v4_2">Category v4.2</a></li>
+                                                routerLink="category_v4_2">Category v4.2</a></li> -->
                                         </ul>
                                         <ul>
                                             <li>Single Product Type</li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
                                                 routerLink="product_v1">Product Single 1</a></li>
-                                            <li class="title-hover-red"><a class="animate-default clear-padding"
+                                            <!-- <li class="title-hover-red"><a class="animate-default clear-padding"
                                                 routerLink="product_v2">Product Single 2</a></li>
                                             <li class="title-hover-red"><a class="animate-default clear-padding"
-                                                routerLink="product_v3">Product Single 3</a></li>
+                                                routerLink="product_v3">Product Single 3</a></li> -->
                                         </ul>
                                         <ul>
                                             <li>Order Page</li>

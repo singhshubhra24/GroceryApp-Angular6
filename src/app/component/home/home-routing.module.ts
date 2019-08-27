@@ -16,6 +16,9 @@ import { ContactComponent } from './contact/contact.component';
 import { Error404Component } from './error404/error404.component';
 import { BlogComponent } from './blog/blog.component';
 import { BlogdetailsComponent } from './blogdetails/blogdetails.component';
+import { LoginComponent } from './login/login.component';
+import { SuccessComponent } from './success/success.component';
+import { HomeV1Component } from './home-v1/home-v1.component';
 
 const routes: Routes = [
   {
@@ -25,6 +28,10 @@ const routes: Routes = [
       {
         path : '',
         component : MainComponent
+      },
+      {
+        path : 'home_v1',
+        component : HomeV1Component   
       },
       {
         path : 'category_v1',
@@ -81,6 +88,14 @@ const routes: Routes = [
       {
         path : 'blogdetail',
         component : BlogdetailsComponent   
+      },
+      {
+        path : 'login',
+        component : LoginComponent   
+      },
+      {
+        path : 'cartpage/success',
+        component : SuccessComponent   
       }
     ]
   }
