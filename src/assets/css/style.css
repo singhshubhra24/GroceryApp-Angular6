@@ -114,7 +114,7 @@ a,a:hover,a:focus{
 }
 
 .text-red{
-	color: #eb1a21;
+	color: rgb(46, 137, 19);
 }
 .text-green{
 	color: #3cb878;
@@ -221,7 +221,7 @@ a,a:hover,a:focus{
 	background: #f7f7f7;
 }
 .bg-red{
-	background: #eb1a21;
+	background: rgb(46, 137, 19);
 }
 .text-default-color{
 	color: #2b2b2b;
@@ -478,7 +478,7 @@ header{
 .mega-menu-v2 ul li:first-child:before{
 	content: "";
 	bottom: 0;
-	background: #eb1a21;
+	background: rgb(46, 137, 19);
 	position: absolute;
 	left: 0;
 	height: 1px;
@@ -776,7 +776,7 @@ header{
 	display: none;
 	z-index: 10;
 	opacity: 0;
-	border-top: 3px solid #eb1a21;
+	border-top: 3px solid rgb(46, 137, 19);
 	background: #fff;
 	padding: 10px;
 	-webkit-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
@@ -806,7 +806,7 @@ header{
 	background: #4c4b4b
 }
 .btn-cart-header a:nth-of-type(2){
-	background: #eb1a21;
+	background: rgb(46, 137, 19);
 }
 .info-product-cart{
 	margin: 10px 0 0 0;
@@ -819,7 +819,7 @@ header{
     position: absolute;
     border-right: 10px solid transparent;
     content: "";
-    border-bottom: 10px solid #eb1a21;
+    border-bottom: 10px solid rgb(46, 137, 19);
     border-left: 10px solid transparent;
     top: -12px;
     right: 5px;
@@ -929,7 +929,7 @@ header{
 	margin: 0 60px 0 0;
 }
 .text-subscribe i {
-    background: #eb1a21;
+    background: rgb(46, 137, 19);
     width: 66px;
     text-align: center;
     padding: 19px 0;
@@ -1385,7 +1385,7 @@ header{
     transform: translate(-50%,-50%);
 }
 .option-product li a:hover{
-	color: #eb1a21;
+	color: rgb(46, 137, 19);
     text-decoration: none;
 }
 .option-product {
@@ -1436,7 +1436,7 @@ header{
     text-decoration: line-through;
 }
 .price-product {
-    color: #eb1a21;
+    color: rgb(46, 137, 19);
     font-size: 20px;
     letter-spacing: -0.25px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -1500,7 +1500,7 @@ header{
 }
 .pagging ul li a:hover,.active-pagging a{
 	color: #fff !important;
-	background: #eb1a21;
+	background: rgb(46, 137, 19);
 	text-decoration: none;
 }
 .dots-pagging {
@@ -1551,8 +1551,8 @@ table {
     cursor: pointer;
 }
 .close-modal:hover{
-	color: #eb1a21;
-	border-color: #eb1a21;
+	color: rgb(46, 137, 19);
+	border-color: rgb(46, 137, 19);
 }
 .title-product-modal {
     font-size: 36px;
@@ -1960,7 +1960,7 @@ body {
 	margin: 0 10px 0 0;
 }
 .menu-vertical{
-	    background: #e3171b;
+	    background: rgb(46, 137, 19);
     padding: 15.5px 0 15.5px 18px;
     display:inline-block;
     width:100%;
